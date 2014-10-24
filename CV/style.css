@@ -1,0 +1,41 @@
+/*
+   style.css
+   Copyright 2014 omlout
+   Omer Loutfi
+   AEM: 621
+   Email: omlout@inf.uth.gr
+*/
+
+body {
+		background: #F5F4EF;
+		color: #000305;
+		font-size: 87.5%; /* Base font size: 14px */
+		font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+		line-height: 1.429;
+		margin: 0;
+		padding: 10px 0px 0px 130px;
+		text-align: left;
+}
+
+table, thead, tbody, th, tr { 
+		display: block; 
+}
+
+#bline {
+	border:1px solid #665544;
+	margin: 15px 0px 0px 0px;
+}
+
+#first { 
+	font-size: 45px; 
+	text-align: left; 
+}
+
+#second { 
+	font-size: 20px; 
+	text-align: left; 
+}
+
+
+
+
