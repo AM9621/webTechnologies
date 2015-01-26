@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+    <head>
+		
+        <link rel="stylesheet" type="text/css" href="Notification/css/ns-default.css" />
+	<link rel="stylesheet" type="text/css" href="Notification/css/ns-style-growl.css" />
+	<script src="Notification/js/modernizr.custom.js"></script>
+    </head>
+    <body>
+	<script src="Notification/js/classie.js"></script>
+	<script src="Notification/js/notificationFx.js"></script>
+	<script>
+            setTimeout( function() {
+						
+                // create the notification
+                var notification = new NotificationFx({
+                    message : '<p align="center">Register Notification<p>There is already an account with this email</p>',
+                    layout : 'growl',
+                    effect : 'genie',
+                    type : 'notice', // notice, warning or error
+							
+                });
+
+                // show the notification
+                notification.show();
+
+            }, 300 );
+                                        
+			
+	</script>
+    </body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+    <head>
+        <link rel="stylesheet" type="text/css" href="Notification/css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="Notification/css/ns-default.css" />
+	<link rel="stylesheet" type="text/css" href="Notification/css/ns-style-bar.css" />
+	<script src="Notification/js/modernizr.custom.js"></script>
+    </head>
+    <body>
+	<script src="Notification/js/classie.js"></script>
+	<script src="Notification/js/notificationFx.js"></script>
+	<script>
+            // create the notification
+            (function() {
+            var notification = new NotificationFx({
+		message : '<span class="icon icon-settings"></span><p>Register Done. Your preferences have been saved successfully. Try to login into the system.</p>',
+		layout : 'bar',					
+                effect : 'exploader',
+		ttl : 9000,
+		type : 'notice', // notice, warning or error
+							
+            });
+
+            // show the notification
+            notification.show();
+            })();                              
+			
+	</script>
+    </body>
+</html>
